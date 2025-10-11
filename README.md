@@ -70,7 +70,7 @@ fig.tight_layout(h_pad=0.9)
 plt.show()
 ```
 ### Results
-![Visualization of skills demanded for top 3 data roles](images/skill_demand_top3_data_roles.png)
+![Visualization of skills demanded for top 3 data roles](./images/skill_demand_top3_data_roles.png)
 
 ### Insights
 - SQL and Python are the most in-demand skills across all three major data roles. SQL remains essential for data handling and querying, especially for Data Analysts, while Python dominates among Data Scientists and Data Engineers due to its versatility in analysis, automation, and data pipelines.
