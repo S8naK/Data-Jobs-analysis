@@ -104,7 +104,7 @@ for i in range(5):
     plt.text(11.2, df_plot.iloc[-1, i], df_plot.columns[i], color='black')
 ```
 ### Results
-![Visualization of skills trending for Data Analysts](images\skill_trend_DataAnalyst.png)
+![Visualization of skills trending for Data Analysts](./images/skill_trend_DataAnalyst.png)
 
 ### Insights
 - SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
@@ -133,7 +133,7 @@ plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
 ### Results
-![Box plot visualizing the salary distributions for the top6 data roles](images\box_plot_salary_distribution_for_top6_data_roles.png)
+![Box plot visualizing the salary distributions for the top6 data roles](./images/box_plot_salary_distribution_for_top6_data_roles.png)
 Box plot visualizing the salary distributions for the top 6 data job titles.
 
 ### Insights
@@ -171,7 +171,7 @@ plt.tight_layout()
 plt.show()
 ```
 ### Results
-![Highest Paid and Most Demanded skills for DA](images\highestPaid_mostDemanded_skills_DataAnalysts.png)
+![Highest Paid and Most Demanded skills for DA](./images/highestPaid_mostDemanded_skills_DataAnalysts.png)
 Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.
 
 ### Insights
@@ -208,7 +208,7 @@ adjust_text(texts, arrowprops=dict(arrowstyle='->', color='gray'))
 plt.show()
 ```
 ### Results
-![Scatter plot for most optimal skills for DA](images\scatterPlot_Most_optimalSkills_DA.png)
+![Scatter plot for most optimal skills for DA](./images/scatterPlot_Most_optimalSkills_DA.png)
 
 A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.
 
